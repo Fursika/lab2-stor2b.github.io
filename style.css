@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 18px; 
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: auto;
+    padding: 20px 20px;
+}
+
+.container {
+    width: 90%; 
+    max-width: 1200px;
+}
+
+.part {
+    margin: 20px 0; 
+    text-align: justify;
+    width: 90%; 
+    box-sizing: border-box; 
+}
+
+.part-0 {
+    color: #ff69b4;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.part-1 {
+    column-count: 2;
+    column-gap: 20px;
+    background-color: #ffffff;
+    border: 2px solid #87cefa;
+    border-radius: 8px;
+    padding: 20px;
+    text-indent: 40px;
+}
+
+.part-2 {
+    text-align: justify;
+    line-height: 1.6;
+    text-indent: 40px; 
+    background-color: #ffffff;
+    border: 2px solid #87cefa;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.part-3 {
+    column-count: 4;
+    column-gap: 20px;
+    background-color: #ffffff;
+    border: 2px solid #87cefa;
+    border-radius: 8px;
+    padding: 20px;
+    text-indent: 40px;
+}
+
+.part-4 {
+    display: flex;
+    gap: 40px; 
+}
+
+.part-4 .main-column {
+    flex: 1;
+    background-color: #ffffff;
+    border: 2px solid #87cefa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-indent: 40px;
+}
+
+.part-4 .sub-columns {
+    flex: 1;
+    background-color: #ffffff;
+    border: 2px solid #87cefa;
+    padding: 20px;
+    border-radius: 8px;
+    column-count: 2;
+    column-gap: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+    text-indent: 40px;
+}
